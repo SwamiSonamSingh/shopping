@@ -15,7 +15,7 @@ const Navbar = ({cartItems}) => {
     return (
         <Nav>
           <Link to="/amazon-clone"> <Logo>
-                <img src={"https://mikekitko.com/wp-content/uploads/2019/10/amazon-logo-white-768x232.png"}/>
+                <h1>Home</h1>
            </Logo></Link>
            <Location>
                <Locationlogo>
@@ -51,9 +51,13 @@ const Nav=styled.div`
     }
 `
 const Logo=styled.div`
-   img{
-       width:100px;
-       margin:10px;
+   h1{
+      color:white;
+      text-decoration:none;
+      font-size:20px;
+      border:2px solid red;
+      padding:5px 10px;
+      border-radius:5px;
    }
 `
 const Location=styled.div`

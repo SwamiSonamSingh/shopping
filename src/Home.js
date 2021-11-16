@@ -36,8 +36,8 @@ const Home = () => {
                         />
                     ))
                 }
+                {/* <Items/> */}
                 {/* <Items/>
-                <Items/>
                 <Items/> */}
             </Content>
         </Container>
